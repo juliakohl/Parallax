@@ -1,4 +1,4 @@
-var gradients=["moonlit-asteroid", "jshine", "cool-sky", "harvey", "amin"];
+var gradients=["moonlit-asteroid", "jshine", "cool-sky", "harvey", "amin", "argon"];
 
 function getGradient(){
     random = Math.random() * gradients.length;
