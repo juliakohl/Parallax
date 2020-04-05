@@ -17,9 +17,6 @@ body{
 
     font-family: @basic-font;
 
-    display: -ms-flexbox;
-    display: flex;
-
     h1{
         font-family: @main-heading-font;
         font-size: 2rem;
@@ -31,10 +28,8 @@ body{
 
     section{
         position: relative;
-        display: table;
         width: 100%;
         &.header{
-            display: table-cell;
             vertical-align: middle;
             padding: 4rem;
             height: 100vh;
@@ -131,4 +126,9 @@ body{
     background: #03001e;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.orange-coral{
+    background: #ff9966;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
