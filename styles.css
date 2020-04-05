@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #101124;
+  background-color: #f6f6f6;
+  font-family: 'Raleway', sans-serif;
+  display: -ms-flexbox;
+  display: flex;
+}
+body h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+}
+body h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+body section {
+  position: relative;
+  display: table;
+  width: 100%;
+}
+body section.header {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 4rem;
+  height: 100vh;
+}
+body section.header .header-text {
+  position: absolute;
+  margin-left: 43%;
+  margin-top: 18vh;
+  margin-right: 3rem;
+}
+body section.header .par-bg {
+  background: #0F2027;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body section.header #par-bg-1 {
+  position: absolute;
+  height: 65vh;
+  width: 34%;
+  top: 5rem;
+  left: 10%;
+  transform-style: preserve-3d;
+  box-shadow: rgba(51, 51, 51, 0.5) 0px 0px 50px 0px;
+}
+body section.header img {
+  position: absolute;
+  height: 13rem;
+  width: auto;
+  top: 5rem;
+  left: 5rem;
+  transform: translateZ(50px);
+  box-shadow: rgba(51, 51, 51, 0.5) 0px 0px 50px 0px;
+}
+body .button {
+  border: 1px solid #101124;
+  color: #101124;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 1rem;
+  margin-left: 0;
+}
+body .button:hover {
+  border: 2px solid #101124;
+  font-weight: bold;
+}
+body .flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  resize: vertical;
+  overflow: auto;
+}
+/* Gradients */
+.moonlit-asteroid {
+  background: #0F2027;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.jshine {
+  background: #12c2e9;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.cool-sky {
+  background: #2980B9;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d3f3ff, #6DD5FA, #2980B9);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #d3f3ff, #6DD5FA, #2980B9);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.amin {
+  background: #8E2DE2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.harvey {
+  background: #1f4037;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #99f2c8, #1f4037);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.flare {
+  background: #f12711;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f5af19, #f12711);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

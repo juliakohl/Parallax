@@ -1,0 +1,129 @@
+// Colors
+@primary: #101124;
+@bg: #f6f6f6;
+
+// Fonts
+@main-heading-font: 'Playfair Display', serif;
+@basic-font: 'Raleway', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: @primary;
+    background-color: @bg;
+
+    font-family: @basic-font;
+
+    display: -ms-flexbox;
+    display: flex;
+
+    h1{
+        font-family: @main-heading-font;
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+    section{
+        position: relative;
+        display: table;
+        width: 100%;
+        &.header{
+            display: table-cell;
+            vertical-align: middle;
+            padding: 4rem;
+            height: 100vh;
+            .header-text{
+                position: absolute;
+                margin-left: 43%;
+                margin-top: 18vh;
+                margin-right: 3rem;
+            }
+            .par-bg{
+                background: #0F2027;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */            
+            }
+            #par-bg-1{
+                position: absolute;
+                height: 65vh;
+                width: 34%;
+                top: 5rem;
+                left: 10%;
+                transform-style: preserve-3d;
+                box-shadow: rgba(51, 51, 51, 0.5) 0px 0px 50px 0px;
+            }
+            img{
+                position: absolute;
+                height: 13rem;
+                width: auto;
+                top: 5rem;
+                left: 5rem;
+                transform: translateZ(50px);
+                box-shadow: rgba(51, 51, 51, 0.5) 0px 0px 50px 0px;
+            }
+        }
+    }
+
+    .button {
+        border: 1px solid @primary;
+        color: @primary;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1rem;
+        margin: 1rem;
+        margin-left: 0;
+        &:hover{
+            border: 2px solid @primary;
+            font-weight: bold;
+        }
+      }
+    
+    .flex-center{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        resize: vertical;
+        overflow: auto;
+    }
+
+}
+
+/* Gradients */
+.moonlit-asteroid{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.jshine{
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.cool-sky{
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(211, 243, 255), #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(211, 243, 255), #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+.amin{
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+.harvey{
+    background: #1f4037;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+.flare{
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
